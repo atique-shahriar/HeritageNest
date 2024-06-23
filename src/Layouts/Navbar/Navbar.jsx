@@ -99,7 +99,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center hidden lg:block">
+          <div className="lg:flex flex-col items-center hidden ">
             <img
               src="../../../public/Images/BuyerScreen/Logo.png"
               alt=""

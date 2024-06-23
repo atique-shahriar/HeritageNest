@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
+import BuyerScreen from "./Pages/BuyerScreens/BuyerScreen/BuyerScreen.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div></div>,
+        element: <BuyerScreen></BuyerScreen>,
       },
     ],
   },
