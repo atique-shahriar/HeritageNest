@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import BuyerScreen from "./Pages/BuyerScreens/BuyerScreen/BuyerScreen.jsx";
+import Landing from "./Pages/Landing/Landing/Landing.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <Landing></Landing>,
+      },
+      {
+        path: "/buyerPage",
         element: <BuyerScreen></BuyerScreen>,
       },
     ],
