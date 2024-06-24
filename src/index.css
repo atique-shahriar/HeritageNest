@@ -8,3 +8,30 @@
     appearance: none;
     padding-right: 2.5rem;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+    background-color: #0059b1;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-button-prev {
+    left: -20px;
+}
+
+.swiper-button-next {
+    right: -20px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 20px;
+}
