@@ -5,6 +5,7 @@ import Testimonials from "../../../Layouts/Testimonials/Testimonials";
 import FindProperty from "../FindProperty/FindProperty";
 import NewListedProperty from "../NewListedPropperty/NewListedProperty";
 import PopularProperties from "../PopularProperties/PopularProperties";
+import PostProperty from "../PostProperty/PostProperty";
 
 const BuyerScreen = () => {
   return (
@@ -22,6 +23,9 @@ const BuyerScreen = () => {
       </div>
       <div>
         <Testimonials></Testimonials>
+      </div>
+      <div className="bg-[#fdf0e7]">
+        <PostProperty></PostProperty>
       </div>
     </div>
   );
