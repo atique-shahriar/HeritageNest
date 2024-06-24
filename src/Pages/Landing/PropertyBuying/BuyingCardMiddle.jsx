@@ -15,7 +15,7 @@ const BuyingCardMiddle = () => {
           </button>
         </div>
         <img
-          className="w-[250px] md:w-[452px] max-h-[240px] rounded-lg absolute -top-20 -right-20  md:-top-28 md:-right-28"
+          className="w-[250px] md:w-[452px] shadow-xl max-h-[240px] rounded-lg absolute -top-20 -right-20  md:-top-28 md:-right-28"
           src="../../../../public/Images/Landing/BuyingCardImage (6).jpeg"
           alt=""
         />

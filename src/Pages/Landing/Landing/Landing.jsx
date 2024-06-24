@@ -1,3 +1,4 @@
+import OtherServices from "../../../Layouts/OtherServices/OtherServices";
 import LandingBanner from "../LandingBanner/LandingBanner";
 import PropertyBuying from "../PropertyBuying/PropertyBuying";
 
@@ -6,6 +7,7 @@ const Landing = () => {
     <div>
       <LandingBanner></LandingBanner>
       <PropertyBuying></PropertyBuying>
+      <OtherServices></OtherServices>
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Footer = () => {
             <p className="text-[#475467] font-medium mt-4 text-center lg:text-justify">Design amazing digital experiences that create more happy in the world.</p>
           </div>
           <div className="lg:col-span-8 grid grid-cols-1 ">
-            <div className="hidden lg:grid lg:grid-cols-5">
+            <div className="hidden md:grid md:grid-cols-5">
               {footerData.map((list, indx) => (
                 <ul
                   key={indx}
@@ -35,7 +35,7 @@ const Footer = () => {
               ))}
             </div>
 
-            <div className="flex items-center justify-between lg:hidden">
+            <div className="flex items-center justify-between md:hidden">
               {footerData.slice(0, 3).map((list, indx) => (
                 <ul
                   key={indx}
@@ -51,7 +51,7 @@ const Footer = () => {
               ))}
             </div>
 
-            <div className="flex items-center justify-around lg:hidden mt-8">
+            <div className="flex items-center justify-around md:hidden mt-8">
               {footerData.slice(3).map((list, indx) => (
                 <ul
                   key={indx}
