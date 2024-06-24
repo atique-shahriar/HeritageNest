@@ -6,16 +6,15 @@ import PropertyCard from "../../../Components/PropertyCard";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
-import "../PopularProperties/style.css";
 
 import { FreeMode, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const PopularProperties = () => {
+const NewListedProperty = () => {
   return (
-    <div className="w-11/12 md:w-4/5 mx-auto mt-10 pb-6 border-b-[1px]">
+    <div className="w-11/12 md:w-4/5 mx-auto mt-20">
       <div className="flex justify-between items-center mb-4">
-        <h4 className="text-3xl font-semibold text-[#111827]">Popular Properties</h4>
+        <h4 className="text-3xl font-semibold text-[#111827]">New Listed Properties</h4>
         <a
           href=""
           className="text-[#0059B1] font-semibold underline">
@@ -29,8 +28,8 @@ const PopularProperties = () => {
           freeMode={true}
           modules={[FreeMode, Navigation]}
           navigation={{
-            nextEl: ".swiper-button-next-popular",
-            prevEl: ".swiper-button-prev-popular",
+            nextEl: ".swiper-button-next-new",
+            prevEl: ".swiper-button-prev-new",
           }}
           breakpoints={{
             640: {
@@ -48,6 +47,9 @@ const PopularProperties = () => {
           }}
           className="mySwiper">
           <SwiperSlide>
+            <PropertyCard cardImage={img2}></PropertyCard>
+          </SwiperSlide>
+          <SwiperSlide>
             <PropertyCard cardImage={img3}></PropertyCard>
           </SwiperSlide>
           <SwiperSlide>
@@ -56,15 +58,12 @@ const PopularProperties = () => {
           <SwiperSlide>
             <PropertyCard cardImage={img2}></PropertyCard>
           </SwiperSlide>
-          <SwiperSlide>
-            <PropertyCard cardImage={img3}></PropertyCard>
-          </SwiperSlide>
         </Swiper>
-        <div className="swiper-button-prev swiper-button-prev-popular"></div>
-        <div className="swiper-button-next swiper-button-next-popular"></div>
+        <div className="swiper-button-prev swiper-button-prev-new"></div>
+        <div className="swiper-button-next swiper-button-next-new"></div>
       </div>
     </div>
   );
 };
 
-export default PopularProperties;
+export default NewListedProperty;
