@@ -36,3 +36,7 @@
 .swiper-button-next::after {
     font-size: 20px;
 }
+
+.swiper-pagination-bullet-active {
+    background: #f06224;
+}

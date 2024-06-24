@@ -6,7 +6,6 @@ import PropertyCard from "../../../Components/PropertyCard";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
-import "../PopularProperties/style.css";
 
 import { FreeMode, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
