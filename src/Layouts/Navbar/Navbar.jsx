@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <li>
         <NavLink
-          to="/"
+          to="/buyerScreen"
           className="hover:bg-transparent py-2 px-2 active:bg-transparent"
           style={({isActive}) => {
             return isActive
@@ -88,11 +88,13 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="flex flex-col items-center lg:hidden">
-              <img
-                src="../../../public/Images/BuyerScreen/Logo.png"
-                alt=""
-                className="w-8 lg:w-12 ml-2"
-              />
+              <Link to="/">
+                <img
+                  src="../../../public/Images/BuyerScreen/Logo.png"
+                  alt=""
+                  className="w-8 lg:w-12 ml-2"
+                />
+              </Link>
             </div>
             <div className="hidden lg:flex">
               <ul className="flex gap-6 text-base">{navItems}</ul>
@@ -100,11 +102,13 @@ const Navbar = () => {
           </div>
 
           <div className="lg:flex flex-col items-center hidden ">
-            <img
-              src="../../../public/Images/BuyerScreen/Logo.png"
-              alt=""
-              className="w-8 lg:w-12"
-            />
+            <Link to="/">
+              <img
+                src="../../../public/Images/BuyerScreen/Logo.png"
+                alt=""
+                className="w-8 lg:w-12"
+              />
+            </Link>
           </div>
 
           <div className="flex items-center gap-6 text-base">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const footerData = [
     ["Product", "Overview", "Features", "Solutions", "Tutorials", "Pricing", "Releases"],
@@ -28,7 +30,7 @@ const Footer = () => {
                     <li
                       key={indx}
                       className={indx == 0 ? "font-semibold text-[#667085] text-sm" : "text-[#475467] font-semibold text-base"}>
-                      {item}
+                      {item === "About Us" ? <Link to="/aboutUs">{item}</Link> : item}
                     </li>
                   ))}
                 </ul>
@@ -44,7 +46,7 @@ const Footer = () => {
                     <li
                       key={indx}
                       className={indx == 0 ? "font-semibold text-[#667085] text-sm" : "text-[#475467] font-semibold text-base"}>
-                      {item}
+                      {item === "About Us" ? <Link to="/about">{item}</Link> : item}
                     </li>
                   ))}
                 </ul>

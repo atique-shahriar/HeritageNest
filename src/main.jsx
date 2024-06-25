@@ -15,19 +15,20 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <About></About>,
-      },
-      {
-        path: "/property",
-        element: <PropertyDetails></PropertyDetails>,
-      },
-      {
-        path: "/landingPage",
         element: <Landing></Landing>,
       },
       {
-        path: "/buyerPage",
+        path: "/buyerScreen",
         element: <BuyerScreen></BuyerScreen>,
+      },
+
+      {
+        path: "/propertyDetails",
+        element: <PropertyDetails></PropertyDetails>,
+      },
+      {
+        path: "/aboutUs",
+        element: <About></About>,
       },
     ],
   },

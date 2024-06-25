@@ -1,6 +1,7 @@
 import { BiHomeAlt, BiSolidDollarCircle } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoLocationOutline, IoSearchOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const FindPropertyDetails = () => {
   return (
@@ -63,12 +64,14 @@ const FindPropertyDetails = () => {
             </div>
           </div>
         </div>
-        <button className="flex justify-center h-10 mt-6 rounded-md items-center w-full bg-[#0059b1] text-white font-medium gap-4">
-          <span>
-            <IoSearchOutline className="text-white text-xl"></IoSearchOutline>
-          </span>
-          <span>Find Property</span>
-        </button>
+        <Link to="/propertyDetails">
+          <button className="flex justify-center h-10 mt-6 rounded-md items-center w-full bg-[#0059b1] text-white font-medium gap-4">
+            <span>
+              <IoSearchOutline className="text-white text-xl"></IoSearchOutline>
+            </span>
+            <span>Find Property</span>
+          </button>
+        </Link>
       </form>
     </div>
   );
