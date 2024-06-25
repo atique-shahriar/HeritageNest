@@ -58,3 +58,9 @@
 #range-slider-yellow .range-slider__thumb[data-active] {
     transform: translate(-50%, -50%) scale(1.25);
 }
+
+.custom-marker {
+    background-color: #ff5722;
+    border: 7px solid white;
+    border-radius: 100%;
+}
