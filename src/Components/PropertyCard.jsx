@@ -20,8 +20,8 @@ const PropertyCard = ({cardImage}) => {
       <div className="p-2 bg-[#f9fafb]">
         <div className="mt-2 border-b-[1px] flex justify-between pb-1">
           <span className="text-[#00254a] bg-[#c5e2ff] px-2 py-1 rounded-sm">Apartment</span>
-          <span className="flex items-center gap-2">
-            <IoIosSquare className="text-xs text-[#ee6611]"></IoIosSquare> Ready to Move
+          <span className="flex items-center gap-2 font-medium">
+            <IoIosSquare className="text-xs text-[#ee6611] "></IoIosSquare> Ready to Move
           </span>
         </div>
         <div>
