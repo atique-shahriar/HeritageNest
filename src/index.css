@@ -40,3 +40,21 @@
 .swiper-pagination-bullet-active {
     background: #f06224;
 }
+
+#range-slider-yellow {
+    background: #eeeeee;
+}
+
+#range-slider-yellow .range-slider__range {
+    background: #ff9d60;
+    transition: height 0.3s;
+}
+
+#range-slider-yellow .range-slider__thumb {
+    background: #ee6611;
+    transition: transform 0.3s;
+}
+
+#range-slider-yellow .range-slider__thumb[data-active] {
+    transform: translate(-50%, -50%) scale(1.25);
+}
