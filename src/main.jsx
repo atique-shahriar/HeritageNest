@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
+import About from "./Pages/About/About/About.jsx";
 import BuyerScreen from "./Pages/BuyerScreens/BuyerScreen/BuyerScreen.jsx";
 import Landing from "./Pages/Landing/Landing/Landing.jsx";
 import PropertyDetails from "./Pages/PropertyDetails/PropertyDetails/PropertyDetails.jsx";
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <About></About>,
+      },
+      {
+        path: "/property",
         element: <PropertyDetails></PropertyDetails>,
       },
       {

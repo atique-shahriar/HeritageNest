@@ -10,7 +10,7 @@ import TestimonialsCard from "../../Components/TestimonialsCard";
 const Testimonials = () => {
   return (
     <div className="w-11/12 md:w-4/5 mx-auto mt-12">
-      <h3 className="text-center font-bold text-4xl mb-4">Testimonials</h3>
+      <h3 className="text-center font-bold text-4xl mb-8">Testimonials</h3>
       <div className="relative ">
         <Swiper
           slidesPerView={1}
