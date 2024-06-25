@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import BuyerScreen from "./Pages/BuyerScreens/BuyerScreen/BuyerScreen.jsx";
 import Landing from "./Pages/Landing/Landing/Landing.jsx";
+import PropertyDetails from "./Pages/PropertyDetails/PropertyDetails/PropertyDetails.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <PropertyDetails></PropertyDetails>,
+      },
+      {
+        path: "/landingPage",
         element: <Landing></Landing>,
       },
       {
