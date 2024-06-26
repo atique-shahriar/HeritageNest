@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../../public/Images/BuyerScreen/Logo.png";
 
-const Navbar = () => {
+const LandingNav = () => {
   const navItems = (
     <>
       <li>
@@ -115,10 +115,8 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="flex items-center gap-6 text-base">
-            <Link>Manage Rentals</Link>
-
-            <Link className="font-medium">Sign In</Link>
+          <div className="text-base">
+            <Link className="font-medium rounded-lg text-[#0059b1] bg-[#c5e2ff] px-8 py-2">Sign In</Link>
           </div>
         </div>
       </div>
@@ -126,4 +124,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default LandingNav;

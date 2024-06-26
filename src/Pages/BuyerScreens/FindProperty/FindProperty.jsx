@@ -30,7 +30,7 @@ const FindProperty = () => {
             <TabPanel
               className=""
               key={item._id}>
-              <FindPropertyDetails></FindPropertyDetails>
+              <FindPropertyDetails item={item.propertyName}></FindPropertyDetails>
             </TabPanel>
           ))}
         </Tabs>

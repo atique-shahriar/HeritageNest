@@ -1,7 +1,8 @@
+import { Fade } from "react-awesome-reveal";
 import consultImg from "../../../../public/Images/About/Consultation.jpeg";
 const Consultation = () => {
   return (
-    <div>
+    <div className="mt-8 mb-16">
       <div className="grid md:grid-cols-3 gap-8">
         <div className="md:col-span-2">
           <div className="flex items-center text-[#f06711]">
@@ -13,11 +14,13 @@ const Consultation = () => {
           <button className=" mt-6 rounded-sm  px-4 py-2 text-white bg-[#0059b1] font-medium gap-4">Book Consultation Now</button>
         </div>
         <div className="md:col-span-1 ">
-          <img
-            className=""
-            src={consultImg}
-            alt=""
-          />
+          <Fade>
+            <img
+              className=""
+              src={consultImg}
+              alt=""
+            />
+          </Fade>
         </div>
       </div>
     </div>

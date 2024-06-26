@@ -15,8 +15,9 @@ const LandingBanner = () => {
           type="video/mp4"
         />
       </video>
+      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <div className="max-w-screen-md text-center mx-auto flex flex-col items-center text-white absolute  inset-0 justify-center">
-        <h2 className="text-2xl md:text-6xl font-bold md:leading-[60px] mb-4">Your Portal to India&apos;s Exquisite Real Estate</h2>
+        <h2 className="text-2xl md:text-6xl font-bold md:leading-[70px] mb-4 ">Your Portal to India&apos;s Exquisite Real Estate</h2>
         <p>Seamlessly connecting you to the heartbeat of India&apos;s prime properties.</p>
 
         <Link to="/buyerScreen">

@@ -1,9 +1,9 @@
+import { PropTypes } from "prop-types";
 import { BiHomeAlt, BiSolidDollarCircle } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoLocationOutline, IoSearchOutline } from "react-icons/io5";
-import { Link } from "react-router-dom";
 
-const FindPropertyDetails = () => {
+const FindPropertyDetails = ({item}) => {
   return (
     <div className="pt-8">
       <form>
@@ -12,7 +12,7 @@ const FindPropertyDetails = () => {
             <input
               type="text"
               className="h-10 w-full border rounded-lg px-12"
-              placeholder="Search Properties"
+              placeholder={`Search ${item} Poperty`}
             />
             <IoSearchOutline className="text-gray-500 text-xl absolute left-4"></IoSearchOutline>
           </label>
@@ -29,8 +29,8 @@ const FindPropertyDetails = () => {
                 <option
                   disabled
                   selected></option>
-                <option>Han Solo</option>
-                <option>Greedo</option>
+                <option>Rampura</option>
+                <option>Mirpur</option>
               </select>
               <IoIosArrowDown className="absolute top-1/2 right-3 h-4 w-4 text-[#ee6611] transform -translate-y-1/2 pointer-events-none"></IoIosArrowDown>
             </div>
@@ -45,8 +45,8 @@ const FindPropertyDetails = () => {
                 <option
                   disabled
                   selected></option>
-                <option>Han Solo</option>
-                <option>Greedo</option>
+                <option>Apartment</option>
+                <option>Commercial</option>
               </select>
               <IoIosArrowDown className="absolute top-1/2 right-3 h-4 w-4 text-[#ee6611] transform -translate-y-1/2 pointer-events-none"></IoIosArrowDown>
             </div>
@@ -64,17 +64,20 @@ const FindPropertyDetails = () => {
             </div>
           </div>
         </div>
-        <Link to="/propertyDetails">
-          <button className="flex justify-center h-10 mt-6 rounded-md items-center w-full bg-[#0059b1] text-white font-medium gap-4">
-            <span>
-              <IoSearchOutline className="text-white text-xl"></IoSearchOutline>
-            </span>
-            <span>Find Property</span>
-          </button>
-        </Link>
+
+        <button className="flex justify-center h-10 mt-6 rounded-md items-center w-full bg-[#0059b1] text-white font-medium gap-4">
+          <span>
+            <IoSearchOutline className="text-white text-xl"></IoSearchOutline>
+          </span>
+          <span>Find Property</span>
+        </button>
       </form>
     </div>
   );
+};
+
+FindPropertyDetails.propTypes = {
+  item: PropTypes.string,
 };
 
 export default FindPropertyDetails;

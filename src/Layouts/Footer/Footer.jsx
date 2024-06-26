@@ -14,11 +14,13 @@ const Footer = () => {
       <div className="w-11/12 md:w-4/5 mx-auto py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-20">
           <div className="lg:col-span-4 flex flex-col items-center lg:items-start">
-            <img
-              className="w-14"
-              src={logo}
-              alt=""
-            />
+            <Link to="/">
+              <img
+                className="w-14"
+                src={logo}
+                alt=""
+              />
+            </Link>
             <p className="text-[#475467] font-medium mt-4 text-center lg:text-justify">Design amazing digital experiences that create more happy in the world.</p>
           </div>
           <div className="lg:col-span-8 grid grid-cols-1 ">
@@ -31,7 +33,15 @@ const Footer = () => {
                     <li
                       key={indx}
                       className={indx == 0 ? "font-semibold text-[#667085] text-sm" : "text-[#475467] font-semibold text-base"}>
-                      {item === "About Us" ? <Link to="/aboutUs">{item}</Link> : item}
+                      {item === "About Us" ? (
+                        <Link to="/aboutUs">{item}</Link>
+                      ) : (
+                        <a
+                          href="#"
+                          onClick={(e) => e.preventDefault()}>
+                          {item}
+                        </a>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -47,7 +57,15 @@ const Footer = () => {
                     <li
                       key={indx}
                       className={indx == 0 ? "font-semibold text-[#667085] text-sm" : "text-[#475467] font-semibold text-base"}>
-                      {item === "About Us" ? <Link to="/aboutUs">{item}</Link> : item}
+                      {item === "About Us" ? (
+                        <Link to="/aboutUs">{item}</Link>
+                      ) : (
+                        <a
+                          href="#"
+                          onClick={(e) => e.preventDefault()}>
+                          {item}
+                        </a>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -63,7 +81,11 @@ const Footer = () => {
                     <li
                       key={indx}
                       className={indx == 0 ? "font-semibold text-[#667085] text-sm" : "text-[#475467] font-semibold text-base"}>
-                      {item}
+                      <a
+                        href="#"
+                        onClick={(e) => e.preventDefault()}>
+                        {item}
+                      </a>
                     </li>
                   ))}
                 </ul>

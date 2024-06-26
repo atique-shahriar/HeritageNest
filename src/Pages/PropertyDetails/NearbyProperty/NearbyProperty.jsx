@@ -12,8 +12,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const NearbyProperty = () => {
   return (
-    <div className="w-11/12 md:w-4/5 mx-auto mt-10 pb-6 border-b-[1px] mb-12">
-      <div className="flex justify-between items-center mb-4">
+    <div className=" mt-10 pb-6 border-b-[1px] mb-12">
+      <div className="flex justify-between items-end mb-4">
         <h4 className="text-3xl font-semibold text-[#111827]">Other Nearby Properties</h4>
         <a
           href=""
@@ -21,7 +21,7 @@ const NearbyProperty = () => {
           See all property
         </a>
       </div>
-      <div className="relative">
+      <div className="relative mx-4 md:mx-0">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}

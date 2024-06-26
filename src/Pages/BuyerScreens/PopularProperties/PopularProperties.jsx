@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const PopularProperties = () => {
   return (
-    <div className="w-11/12 md:w-4/5 mx-auto mt-10 pb-6 border-b-[1px]">
+    <div className="mt-10 pb-6 border-b-[1px]">
       <div className="flex justify-between items-center mb-4">
         <h4 className="text-3xl font-semibold text-[#111827]">Popular Properties</h4>
         <a
@@ -21,7 +21,7 @@ const PopularProperties = () => {
           See all Property
         </a>
       </div>
-      <div className="relative">
+      <div className="relative mx-4 md:mx-0">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
