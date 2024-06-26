@@ -1,3 +1,4 @@
+import consultImg from "../../../../public/Images/About/Consultation.jpeg";
 const Consultation = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const Consultation = () => {
         <div className="md:col-span-1 ">
           <img
             className=""
-            src="../../../../public/Images/About/Consultation.jpeg"
+            src={consultImg}
             alt=""
           />
         </div>

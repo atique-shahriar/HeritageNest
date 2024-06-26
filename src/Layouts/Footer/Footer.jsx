@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../../public/Images/BuyerScreen/Logo.png";
 
 const Footer = () => {
   const footerData = [
@@ -15,7 +16,7 @@ const Footer = () => {
           <div className="lg:col-span-4 flex flex-col items-center lg:items-start">
             <img
               className="w-14"
-              src="../../../public/Images/BuyerScreen/Logo.png"
+              src={logo}
               alt=""
             />
             <p className="text-[#475467] font-medium mt-4 text-center lg:text-justify">Design amazing digital experiences that create more happy in the world.</p>
@@ -46,7 +47,7 @@ const Footer = () => {
                     <li
                       key={indx}
                       className={indx == 0 ? "font-semibold text-[#667085] text-sm" : "text-[#475467] font-semibold text-base"}>
-                      {item === "About Us" ? <Link to="/about">{item}</Link> : item}
+                      {item === "About Us" ? <Link to="/aboutUs">{item}</Link> : item}
                     </li>
                   ))}
                 </ul>

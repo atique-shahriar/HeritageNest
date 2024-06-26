@@ -1,3 +1,7 @@
+import photo1 from "../../../../public/Images/About/Team (1).jpeg";
+import photo2 from "../../../../public/Images/About/Team (2).jpeg";
+import photo3 from "../../../../public/Images/About/Team (3).jpeg";
+
 const OurTeam = () => {
   return (
     <div className="w-11/12 md:w-4/5 mx-auto">
@@ -10,21 +14,21 @@ const OurTeam = () => {
         <div className="max-h-[400px] md:max-h-[550px] ">
           <img
             className="h-full w-full object-cover object-top"
-            src="../../../../public/Images/About/Team (1).jpeg"
+            src={photo1}
             alt=""
           />
         </div>
         <div className="max-h-[400px] md:max-h-[550px]">
           <img
             className="h-full w-full object-cover object-top"
-            src="../../../../public/Images/About/Team (2).jpeg"
+            src={photo2}
             alt=""
           />
         </div>
         <div className="max-h-[400px] md:max-h-[550px]">
           <img
             className="h-full w-full object-cover object-top"
-            src="../../../../public/Images/About/Team (3).jpeg"
+            src={photo3}
             alt=""
           />
         </div>

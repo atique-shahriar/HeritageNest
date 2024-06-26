@@ -1,5 +1,6 @@
 import { IoSearchOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import videoBanner from "../../../../public/Images/Landing/Banner.mp4";
 
 const LandingBanner = () => {
   return (
@@ -10,7 +11,7 @@ const LandingBanner = () => {
         loop
         muted>
         <source
-          src="../../../../public/Images/Landing/Banner.mp4"
+          src={videoBanner}
           type="video/mp4"
         />
       </video>

@@ -1,4 +1,6 @@
 import { IoPlaySharp } from "react-icons/io5";
+import cardImg4 from "../../../../public/Images/Landing/BuyingCardImage (4).jpeg";
+import cardImg6 from "../../../../public/Images/Landing/BuyingCardImage (6).jpeg";
 
 const BuyingCardMiddle = () => {
   return (
@@ -7,7 +9,7 @@ const BuyingCardMiddle = () => {
         <div className="relative">
           <img
             className="rounded-lg"
-            src="../../../../public/Images/Landing/BuyingCardImage (4).jpeg"
+            src={cardImg4}
             alt=""
           />
           <button className="w-10 h-10 bg-[#0059B1] rounded-[100%] absolute left-[60px] md:left-[90px] -top-5 flex items-center justify-center z-30">
@@ -16,7 +18,7 @@ const BuyingCardMiddle = () => {
         </div>
         <img
           className="w-[250px] md:w-[452px] shadow-xl max-h-[240px] rounded-lg absolute -top-20 -right-20  md:-top-28 md:-right-28"
-          src="../../../../public/Images/Landing/BuyingCardImage (6).jpeg"
+          src={cardImg6}
           alt=""
         />
       </div>

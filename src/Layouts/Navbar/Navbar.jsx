@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../../public/Images/BuyerScreen/Logo.png";
 
 const Navbar = () => {
   const navItems = (
@@ -90,7 +91,7 @@ const Navbar = () => {
             <div className="flex flex-col items-center lg:hidden">
               <Link to="/">
                 <img
-                  src="../../../public/Images/BuyerScreen/Logo.png"
+                  src={logo}
                   alt=""
                   className="w-8 lg:w-12 ml-2"
                 />
@@ -104,7 +105,7 @@ const Navbar = () => {
           <div className="lg:flex flex-col items-center hidden ">
             <Link to="/">
               <img
-                src="../../../public/Images/BuyerScreen/Logo.png"
+                src={logo}
                 alt=""
                 className="w-8 lg:w-12"
               />
