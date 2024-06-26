@@ -10,8 +10,8 @@ const OtherServicesCard = ({title, subtitle}) => {
         </div>
       </div>
       <div>
-        <h5 className="text-[#111827] font-semibold text-lg lg:text-xl">{title}</h5>
-        <p className="text-[#818181] font-medium text-base mt-1">{subtitle}</p>
+        <h5 className="text-[#111827] font-semibold text-lg lg:text-xl font-mont">{title}</h5>
+        <p className="text-[#818181] font-medium text-base mt-1 font-poppins">{subtitle}</p>
       </div>
     </div>
   );

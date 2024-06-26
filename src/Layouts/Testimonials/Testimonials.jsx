@@ -12,7 +12,7 @@ const Testimonials = () => {
   return (
     <Zoom>
       <div className=" mt-12">
-        <h3 className="text-center font-bold text-4xl mb-8">Testimonials</h3>
+        <h3 className="text-center font-bold text-4xl mb-8 font-mont">Testimonials</h3>
         <div className="relative ">
           <Swiper
             slidesPerView={1}

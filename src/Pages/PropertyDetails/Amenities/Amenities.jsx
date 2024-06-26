@@ -33,7 +33,7 @@ import AmenitesCard from "./AmenitesCard";
 const Amenities = () => {
   return (
     <div
-      className="
+      className=" font-mont
     bg-[#f9fafb] border border-[#e5e7eb] rounded-lg p-6 mb-20">
       <h4 className="text-2xl font-medium mb-6 ">Amenities</h4>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 lg:gap-10 p-2">

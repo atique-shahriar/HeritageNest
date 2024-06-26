@@ -10,7 +10,7 @@ const Footer = () => {
     ["Legal", "Terms", "Privacy", "Cookies", "Licenses", "Settings", "Contacts"],
   ];
   return (
-    <div className="bg-[#ecf5ff]">
+    <div className="bg-[#ecf5ff] font-inter">
       <div className="w-11/12 md:w-4/5 mx-auto py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-20">
           <div className="lg:col-span-4 flex flex-col items-center lg:items-start">

@@ -4,7 +4,7 @@ import videoBanner from "../../../../public/Images/Landing/Banner.mp4";
 
 const LandingBanner = () => {
   return (
-    <div className="relative">
+    <div className="relative font-inter">
       <video
         className="videoTag w-full"
         autoPlay

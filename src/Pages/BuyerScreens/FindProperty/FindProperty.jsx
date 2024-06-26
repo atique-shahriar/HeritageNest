@@ -12,7 +12,7 @@ const FindProperty = () => {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative font-inter">
       <div className="w-4/5 lg:w-8/12 border p-6 shadow-xl rounded-lg mx-auto bg-white absolute -top-48 left-1/2 transform -translate-x-1/2">
         <Tabs>
           <TabList className="flex gap-4 md:gap-8 border-b-2 border-[#0058b11c] ">

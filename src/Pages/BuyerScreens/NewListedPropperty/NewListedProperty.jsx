@@ -14,10 +14,10 @@ const NewListedProperty = () => {
   return (
     <div className="mt-20">
       <div className="flex justify-between items-center mb-4">
-        <h4 className="text-3xl font-semibold text-[#111827]">New Listed Properties</h4>
+        <h4 className="text-3xl font-semibold text-[#111827] font-mont">New Listed Properties</h4>
         <a
           href=""
-          className="text-[#0059B1] font-semibold underline">
+          className="text-[#0059B1] font-semibold underline font-poppins">
           See all Property
         </a>
       </div>

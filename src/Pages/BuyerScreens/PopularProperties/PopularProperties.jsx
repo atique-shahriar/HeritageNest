@@ -14,10 +14,10 @@ const PopularProperties = () => {
   return (
     <div className="mt-10 pb-6 border-b-[1px]">
       <div className="flex justify-between items-center mb-4">
-        <h4 className="text-3xl font-semibold text-[#111827]">Popular Properties</h4>
+        <h4 className="text-3xl font-semibold text-[#111827] font-mont">Popular Properties</h4>
         <a
           href=""
-          className="text-[#0059B1] font-semibold underline">
+          className="text-[#0059B1] font-semibold underline font-poppins">
           See all Property
         </a>
       </div>

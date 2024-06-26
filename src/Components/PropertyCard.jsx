@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 const PropertyCard = ({cardImage}) => {
   return (
-    <div>
+    <div className="font-poppins">
       <Link to="/propertyDetails">
-        <div className="relative">
+        <div className="relative ">
           <img
             src={cardImage}
             alt=""
@@ -27,12 +27,12 @@ const PropertyCard = ({cardImage}) => {
             </span>
           </div>
           <div>
-            <h6 className="font-semibold text-xl text-[#111827]">SunnySlope Suites</h6>
+            <h6 className="font-semibold text-xl text-[#111827] font-mont">SunnySlope Suites</h6>
             <p className="flex gap-1 items-center">
               <IoLocationOutline className="text-[#ee6611]"></IoLocationOutline>
               <span className="text-base text-[#6B7280]">Meadowshire Park, Greenfield, USA</span>
             </p>
-            <h6 className="font-semibold text-2xl text-[#111827] mt-3">$ 250000</h6>
+            <h6 className="font-semibold text-2xl text-[#111827] mt-3 font-mont">$ 250000</h6>
           </div>
         </div>
       </Link>

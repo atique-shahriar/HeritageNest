@@ -6,7 +6,7 @@ const OtherServices = () => {
     <Bounce>
       <div className="mt-16 mb-10 ">
         <div>
-          <h3 className="text-center text-[#181818] font-semibold text-4xl mb-10">Other Services</h3>
+          <h3 className="text-center text-[#181818] font-semibold text-4xl mb-10 font-mont">Other Services</h3>
         </div>
         <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-6">
           <OtherServicesCard

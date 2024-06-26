@@ -2,7 +2,7 @@ import { FaAngellist, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Copyright = () => {
   return (
-    <div className="bg-[#ecf5ff]">
+    <div className="bg-[#ecf5ff] font-inter">
       <div className="flex justify-between items-center  w-11/12 md:w-4/5 mx-auto py-8 border-t border-t-[#c5e2ff]">
         <div className="text-[#667085]">© 2024 Heritage- Nest . All rights reserved.</div>
         <div className="flex gap-6">

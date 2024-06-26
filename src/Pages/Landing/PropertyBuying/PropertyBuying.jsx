@@ -9,7 +9,7 @@ import BuyingCardTop from "./BuyingCardTop";
 
 const PropertyBuying = () => {
   return (
-    <div className="mt-16 mb-16 lg:mb-40">
+    <div className="mt-16 mb-16 lg:mb-40 font-inter">
       <div className="flex flex-col lg:flex-row  justify-between gap-24 md:gap-32 lg:gap-52 xl:gap-64 mb-16 lg:mb-40">
         <Fade>
           <BuyingCardTop
