@@ -1,5 +1,5 @@
 <h1>Heritage Nest</h1>
-<hr><br>
+<hr>
 <h3>Live Link: <a href="https://heritagenestt.netlify.app/">Heritage Nest</a></h3><br>
 
 <h2>Website Description:</h2>
@@ -21,8 +21,9 @@
 <br>
 
 <h3>Tools: HTML, CSS, Tailwind CSS, JavaScript, React.js</h3>
+<br>
 
-<p>Home Page: <a href="https://heritagenestt.netlify.app/"></a></p>
-<p>Property Page: <a href="https://heritagenestt.netlify.app/buyerScreen"></a></p>
-<p>Property Details Page: <a href="https://heritagenestt.netlify.app/propertyDetails"></a></p>
-<p>About Page: <a href="https://heritagenestt.netlify.app/aboutUs"></a></p>
+<p>Home Page: <a href="https://heritagenestt.netlify.app/">https://heritagenestt.netlify.app/</a></p>
+<p>Property Page: <a href="https://heritagenestt.netlify.app/buyerScreen">https://heritagenestt.netlify.app/buyerScreen</a></p>
+<p>Property Details Page: <a href="https://heritagenestt.netlify.app/propertyDetails">https://heritagenestt.netlify.app/propertyDetails</a></p>
+<p>About Page: <a href="https://heritagenestt.netlify.app/aboutUs"></a>https://heritagenestt.netlify.app/aboutUs</p>
